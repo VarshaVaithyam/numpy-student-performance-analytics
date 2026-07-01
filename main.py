@@ -27,3 +27,14 @@ print("Lowest marks:", lowest_marks)
 print("Total marks:", total_marks)
 print("Median marks:", median_marks)
 print("Standard deviation:", standard_deviation)
+
+#Filter student marks 
+above_90= student_marks[student_marks > 90]
+below_40= student_marks[student_marks < 40]
+between_60_and_80= student_marks[(student_marks >= 60) & (student_marks <= 80)]
+
+print("student scoring above 90:", above_90)
+print("student scoring below 40:", below_40)
+print("student scoring between 60 and 80:", between_60_and_80)
+print("number of student scoring above 90:", np.size(above_90))
+print("failed student:", np.size(below_40))
