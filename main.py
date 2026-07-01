@@ -74,3 +74,17 @@ print("student who pass:", student_marks [student_marks >= 40])
 print("student scoring full marks:", student_marks [student_marks == 100])
 print("student who did not score 50:", student_marks [student_marks != 50])
 
+# Broadcasting Operations
+bonus_marks = 10
+updated_marks = student_marks + bonus_marks
+print(updated_marks)
+penalty = 5
+penalty_subtracted =student_marks - penalty
+print(penalty_subtracted)
+scaled_marks = student_marks * 1.1
+print(scaled_marks)
+attendance_bonus = np.random.randint(0, 6, size=100)
+updated_marks = attendance_bonus + student_marks
+print(updated_marks)
+
+
