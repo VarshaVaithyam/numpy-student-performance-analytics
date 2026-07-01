@@ -48,3 +48,13 @@ print("marks of last 10 students:", student_marks[-10:])
 print("marks of student between 20 to 30:", student_marks[20:30])
 print("alternate students marks:", student_marks[::2])
 print("reverse student but every second student:", student_marks[::-2])
+
+# Sort Student Marks
+ascending_marks = np.sort(student_marks)
+print("ascending student marks:", ascending_marks)
+print("desecnding student marks:", ascending_marks[::-1])
+print("top highest marks:", ascending_marks[-10:])
+print("lowest 10 marks:", ascending_marks[0:10])
+print("highest mark:", ascending_marks[-1])
+print("lowest mark:", ascending_marks[0])
+
