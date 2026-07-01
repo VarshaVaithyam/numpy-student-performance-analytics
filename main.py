@@ -58,3 +58,19 @@ print("lowest 10 marks:", ascending_marks[0:10])
 print("highest mark:", ascending_marks[-1])
 print("lowest mark:", ascending_marks[0])
 
+# Arithmetic Operations
+print("grace marks:", student_marks + 5)
+print("reduced marks:", student_marks -10)
+print("double marks:", student_marks * 2)
+print("half marks:", student_marks / 2)
+
+attendance_bonus = np.random.randint(0, 6, size=100)
+final_marks = student_marks + attendance_bonus
+print(student_marks)
+print(attendance_bonus)
+print(final_marks)
+
+print("student who pass:", student_marks [student_marks >= 40])
+print("student scoring full marks:", student_marks [student_marks == 100])
+print("student who did not score 50:", student_marks [student_marks != 50])
+
