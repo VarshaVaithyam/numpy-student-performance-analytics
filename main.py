@@ -38,3 +38,13 @@ print("student scoring below 40:", below_40)
 print("student scoring between 60 and 80:", between_60_and_80)
 print("number of student scoring above 90:", np.size(above_90))
 print("failed student:", np.size(below_40))
+
+# Student Marks Indexing & Slicing
+print("first student mark:", student_marks[0])
+print("last student mark:", student_marks[-1])
+print("5th student mark:", student_marks[4])
+print("marks of first 10 students:", student_marks[0:10])
+print("marks of last 10 students:", student_marks[-10:])
+print("marks of student between 20 to 30:", student_marks[20:30])
+print("alternate students marks:", student_marks[::2])
+print("reverse student but every second student:", student_marks[::-2])
